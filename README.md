@@ -30,3 +30,5 @@ where Q is a set of states,
 \delta is a function that takes Q x \Sigma -> and takes it to another state,
 q_{0} is the starting state,
 F is a subset of Q and is the final state.
+<img width="630" alt="Screenshot 2023-06-08 at 12 44 24 PM" src="https://github.com/wimthomzik/finiteAutomata/assets/82528324/03c34679-dc5c-4e7b-a0f2-988adb8042b3">
+
