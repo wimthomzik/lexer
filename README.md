@@ -1,7 +1,7 @@
-# Finite Automata
+# Lexer
 
-This is a basic implementation of a Finite Automata. It will read through
-an input source code and count all the tokens that are used in the source code.
+This is a basic implementation of a Lexer. It will read through
+an input source code.
 The target language is C++.
 
 ## Installation
@@ -25,7 +25,7 @@ Please make sure to update tests as appropriate.
 
 They are abstract programming flow charts.
 
-### Mathamatical Model
+### Mathamatical Model of a finite automata
 M = (Q, \Sigma ,\delta,q_{0},F)
 where Q is a set of states,
 \Sigma is the alphabet (finite not empty set of symbols),
