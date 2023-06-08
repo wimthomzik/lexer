@@ -10,9 +10,9 @@ The target language is C++.
 
 ## Roadmap
 
- (1) basic c++ program that reads through a input.
- (2) in addition this program should identify specific words.
- (3) finally the programm is identifiying all kinds of tokens and counts them.
+1. Basic c++ program that reads through a input.
+2. In addition this program should identify specific words.
+3. Finally the programm is identifiying all kinds of tokens and counts them.
 
 ## Contributing
 
