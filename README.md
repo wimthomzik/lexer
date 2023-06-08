@@ -24,7 +24,7 @@ Please make sure to update tests as appropriate.
 ## What is a finite automata (or finite state machines)?
 
 ### Mathamatical Model
-M = (Q,\Sigma ,\delta,q_{0},F)
+M = (Q, \Sigma ,\delta,q_{0},F)
 where Q is a set of states,
 \Sigma is the alphabet (finite not empty set of symbols),
 \delta is a function that takes Q x \Sigma -> and takes it to another state,
