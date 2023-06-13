@@ -15,20 +15,26 @@ int main() {
 
     //declare variable for each character
     char character;
+    int position;
 
     //loop through each digit of input file and print its kind
     while (inputFile.get(character)) {
 
         // Process the character
+        
+
         if (std::isdigit(character)) {
-            std::cout << "Digit" << std::endl;
+            std::cout << "Number     | Positon: " << position << std::endl;
         } else if (std::isalpha(character)) {
-            std::cout << "Letter"<< std::endl;
+            std::cout << "Letter     | Positon: " << position << std::endl;
         } else if (std::isspace(character)) {
-            std::cout << "Whitespace"<< std::endl;
-        } else {
-            std::cout << "Symbol"<< std::endl;
+            std::cout << "Whitespace | Positon: " << position << std::endl;
+        } else  {
+            std::cout << "Symbol     | Positon: " << position << std::endl;
         }
+
+        position ++;
+        
     }
         
 
@@ -39,3 +45,5 @@ int main() {
     return 0;
 
 }
+
+
